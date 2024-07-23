@@ -15,7 +15,6 @@ public class Normalize
         var normalizedWord = word.ToLower();
         normalizedWord = RemoveRemovableWords(normalizedWord);
         normalizedWord = ReplaceSpanishSpecialCharacters(normalizedWord);
-        normalizedWord = RemoveSpanishSpecialCharacters(normalizedWord);
         normalizedWord = RemoveExtraWhitespace(normalizedWord);
         normalizedWord = ToTitleCase(normalizedWord);
         return normalizedWord;
