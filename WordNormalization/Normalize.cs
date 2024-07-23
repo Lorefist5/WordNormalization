@@ -13,10 +13,10 @@ public class Normalize
     public static string NormalizeWord(string word)
     {
         var normalizedWord = word.ToLower();
-        normalizedWord = RemoveExtraWhitespace(normalizedWord);
         normalizedWord = RemoveRemovableWords(normalizedWord);
         normalizedWord = ReplaceSpanishSpecialCharacters(normalizedWord);
         normalizedWord = RemoveSpanishSpecialCharacters(normalizedWord);
+        normalizedWord = RemoveExtraWhitespace(normalizedWord);
         normalizedWord = ToTitleCase(normalizedWord);
         return normalizedWord;
     }
