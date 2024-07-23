@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordNormalization", "WordNormalization\WordNormalization.csproj", "{5B268592-6343-462D-95F8-ECB4A7D6D59E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Normalization.Test", "Normalization.Test\Normalization.Test.csproj", "{77942B7C-7E7F-4376-8D1F-F5700CFF1528}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B268592-6343-462D-95F8-ECB4A7D6D59E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B268592-6343-462D-95F8-ECB4A7D6D59E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B268592-6343-462D-95F8-ECB4A7D6D59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B268592-6343-462D-95F8-ECB4A7D6D59E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77942B7C-7E7F-4376-8D1F-F5700CFF1528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77942B7C-7E7F-4376-8D1F-F5700CFF1528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77942B7C-7E7F-4376-8D1F-F5700CFF1528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77942B7C-7E7F-4376-8D1F-F5700CFF1528}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A19CC921-14B2-469E-BC7B-DA8A83D9E117}
+	EndGlobalSection
+EndGlobal
